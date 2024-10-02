@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gallery</title>
+    <style>
+         in-right: 20px;
+        }nav{
+            background-color: chocolate;
+            text-align: right;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px;
+        }
+        button{
+            padding: 8px;
+            background-color: burlywood;
+            border-radius: 8px;
+        }
+        a{
+           marg
+    </style>
+</head>
+<body>
+
+</body>
+</html>

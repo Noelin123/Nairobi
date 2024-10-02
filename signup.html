@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="mybody">
+<nav>
+    <a href="index.html"><button>Home</button></a>
+    <a href="aboutus.html"><button>About Us</button></a>
+    <a href="contactus.html"><button>Contact Us</button></a>
+    <a href="gallery.html"><button>Gallery</button></a>
+    <a href="#"><button>Sign Up</button></a>
+
+    <hr>
+</nav>
+<form action="">
+    <fieldset>
+        <div class="form_group">
+            <label for="first name">FIRST NAME:</label>
+            <input type="text" name="first name" id="first name" placeholder="Enter first name">
+
+            <label for="last_name"> LAST NAME</label>
+            <input type="text" name="last name" id="last name" placeholder="Enter last name">
+
+            <label for="middle name">MIDDLE NAME</label>
+            <input type="text" name="middle name" id="middle name" placeholder="Enter middle name">
+
+            <div>
+                <label>GENDER:</label>
+                <input type="radio" id="male" name="gender" value="MALE">
+                <label for="male">MALE</label>
+                <input type="radio" id="female" name="gender" value="FEMALE">
+                <label for="female">FEMALE</label>
+            </div>
+            <div class="form_inline">
+                <lable>RESIDENCE</lable>
+                <input type="checkbox" id="residence1" name="nairobi">
+                <label for="residence1">NAIROBI</label>
+                <input type="checkbox" id="residence2" name="mombasa">
+                <label for="residence2">MOMBASA</label>
+                <input type="checkbox" id="residence3" name="kisumu">
+                <label for="residence3">KISUMU</label>
+
+            </div>
+            <div>
+                <label for="marital_status" class="full_width">MARITAL STATUS</label>
+                <select name="marital status" id="marital_status" class="full_width">
+                    <option value="married">MARRIED</option>
+                    <option value="single">SINGLE</option>
+                    <option value="divorced">DIVORCED</option>
+                    <option value="complicated">COMPLICATED</option>
+                    <option value="open">open</option>
+
+                </select>
+            </div>
+        </div>
+        <input type="submit" value="submit">
+    </fieldset>
+</form>
+</body>
+</html>
